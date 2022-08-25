@@ -1,0 +1,23 @@
+{
+  "name": "learning_html",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx static-server -p 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayhy/learning_html.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayhy/learning_html/issues"
+  },
+  "homepage": "https://github.com/mayhy/learning_html#readme",
+  "dependencies": {
+    "static-server": "^2.2.1"
+  }
+}
