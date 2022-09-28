@@ -40,5 +40,16 @@ div.search-box {
   position: relative;
   right: 20px;
   top: 14px;
-  color: turquoise;
+  color: red;
+}
+
+div.youtube-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.youtube-icon {
+  position: relative;
+  top: 30px;
+  right: 30px;
 }
