@@ -1,0 +1,55 @@
+.main-heading {
+  font-size: 70px;
+  color: palevioletred;
+  text-align: center;
+  margin-top: 25vh;
+}
+
+body {
+  background-color: pink;
+}
+
+div.search-box {
+  display: flex;
+  justify-content: center;
+}
+
+.search-text {
+  padding: 0.75em;
+  padding-left: 2.5em;
+  width: 38vw;
+  height: 1.5em;
+  border-radius: 25px;
+  border-color: white;
+  box-shadow: 3px 3px rgba(1, 1, 1, 0.1);
+}
+
+.search-box {
+  display: flex;
+  justify-content: left;
+}
+
+.fa-magnifying-glass {
+  position: relative;
+  left: 30px;
+  top: 14px;
+  color: turquoise;
+}
+
+.fa-microphone {
+  position: relative;
+  right: 20px;
+  top: 14px;
+  color: red;
+}
+
+div.youtube-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.youtube-icon {
+  position: relative;
+  top: 30px;
+  right: 30px;
+}
