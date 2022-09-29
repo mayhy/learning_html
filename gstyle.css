@@ -11,19 +11,22 @@
   border: 1px;
   border-color: black;
   border-style: solid;
+  background-color: whitesmoke;
+  height: 350px;
+}
+
+.one {
+  text-align: center;
 }
 
 .column1 {
-  background-color: wheat;
   flex: 1;
 }
 
 .column2 {
-  background-color: white;
   flex: 2;
 }
 
 .column3 {
-  background-color: white;
   flex: 1;
 }
