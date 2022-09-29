@@ -7,21 +7,22 @@
   display: flex;
 }
 
-.column1 {
-  background-color: wheat;
-  flex: 1;
+.border1 {
   border: 1px;
   border-color: black;
   border-style: solid;
 }
 
+.column1 {
+  background-color: wheat;
+  flex: 1;
+}
+
 .column2 {
   background-color: white;
   flex: 2;
-  border: 1px;
-  border-color: black;
-  border-style: solid;
 }
+
 .column3 {
   background-color: white;
   flex: 1;
