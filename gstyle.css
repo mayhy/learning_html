@@ -1,55 +1,29 @@
 .main-heading {
-  font-size: 70px;
-  color: palevioletred;
+  font-style: italic;
   text-align: center;
-  margin-top: 25vh;
 }
 
-body {
-  background-color: pink;
-}
-
-div.search-box {
+.grid-container {
   display: flex;
-  justify-content: center;
 }
 
-.search-text {
-  padding: 0.75em;
-  padding-left: 2.5em;
-  width: 38vw;
-  height: 1.5em;
-  border-radius: 25px;
-  border-color: white;
-  box-shadow: 3px 3px rgba(1, 1, 1, 0.1);
+.border1 {
+  border: 1px;
+  border-color: black;
+  border-style: solid;
 }
 
-.search-box {
-  display: flex;
-  justify-content: left;
+.column1 {
+  background-color: wheat;
+  flex: 1;
 }
 
-.fa-magnifying-glass {
-  position: relative;
-  left: 30px;
-  top: 14px;
-  color: turquoise;
+.column2 {
+  background-color: white;
+  flex: 2;
 }
 
-.fa-microphone {
-  position: relative;
-  right: 20px;
-  top: 14px;
-  color: red;
-}
-
-div.youtube-icon {
-  display: flex;
-  justify-content: center;
-}
-
-.youtube-icon {
-  position: relative;
-  top: 30px;
-  right: 30px;
+.column3 {
+  background-color: white;
+  flex: 1;
 }
