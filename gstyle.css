@@ -7,19 +7,21 @@
   display: flex;
 }
 
-.column1 {
-  background-color: red;
-  flex: 1;
+.border1 {
+  background-color: white;
   border: 1px;
   border-color: black;
   border-style: solid;
 }
 
+.column1 {
+  flex: 1;
+}
+
 .column2 {
-  background-color: yellow;
   flex: 2;
 }
+
 .column3 {
-  background-color: blue;
   flex: 1;
 }
